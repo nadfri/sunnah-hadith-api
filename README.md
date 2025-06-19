@@ -77,7 +77,7 @@ JSON Response:
       "reference": {
         "collectionId": "collection id",
         "bookId": "book id",
-        "hadithNumberInBook": "hadith number in book",
+        "numero": "hadith number in book",
         "hadithNumberInCollection": "hadith number in collection",
         "api": {
           "hadith": "api link for this hadith",
@@ -152,7 +152,7 @@ JSON Response:
           "reference": {
             "collectionId": "collection id",
             "bookId": "book id",
-            "hadithNumberInBook": "number of hadith in book",
+            "numero": "number of hadith in book",
             "hadithNumberInCollection": "number of hadith in collection",
             "api": {
               "hadith": "api link for this hadith",
@@ -201,7 +201,7 @@ JSON Response:
               "reference": {
                 "collectionId": "collection id",
                 "bookId": "book id",
-                "hadithNumberInBook": "number of hadith in book",
+                "numero": "number of hadith in book",
                 "hadithNumberInCollection": "number of hadith in collection",
                 "api": {
                   "hadith": "api link for this hadith",
@@ -268,7 +268,7 @@ JSON Response:
     "reference": {
       "collectionId": "collection id",
       "bookId": "book id",
-      "hadithNumberInBook": "number of hadith in book",
+      "numero": "number of hadith in book",
       "hadithNumberInCollection": "number of hadith in collection",
       "api": {
         "hadith": "api link for this hadith",
@@ -330,7 +330,7 @@ JSON Response:
     "reference": {
       "collectionId": "collection id",
       "bookId": "book id",
-      "hadithNumberInBook": "number of hadith in book",
+      "numero": "number of hadith in book",
       "hadithNumberInCollection": "number of hadith in collection",
       "api": {
         "hadith": "api link for this hadith",

@@ -78,7 +78,7 @@ npm start
       "reference": {
         "collectionId": "رقم المجموعة",
         "bookId": "رقم الكتاب",
-        "hadithNumberInBook": "رقم الحديث في الكتاب",
+        "numero": "رقم الحديث في الكتاب",
         "hadithNumberInCollection": "رقم الحديث في المجموعة",
         "api": {
           "hadith": "رابط API لهذا الحديث",
@@ -153,7 +153,7 @@ npm start
           "reference": {
             "collectionId": "رقم المجموعة",
             "bookId": "رقم الكتاب",
-            "hadithNumberInBook": "رقم الحديث في الكتاب",
+            "numero": "رقم الحديث في الكتاب",
             "hadithNumberInCollection": "رقم الحديث في المجموعة",
             "api": {
               "hadith": "رابط API لهذا الحديث",
@@ -202,7 +202,7 @@ npm start
               "reference": {
                 "collectionId": "رقم المجموعة",
                 "bookId": "رقم الكتاب",
-                "hadithNumberInBook": "رقم الحديث في الكتاب",
+                "numero": "رقم الحديث في الكتاب",
                 "hadithNumberInCollection": "رقم الحديث في المجموعة",
                 "api": {
                   "hadith": "رابط API لهذا الحديث",
@@ -269,7 +269,7 @@ npm start
     "reference": {
       "collectionId": "رقم المجموعة",
       "bookId": "رقم الكتاب",
-      "hadithNumberInBook": "رقم الحديث في الكتاب",
+      "numero": "رقم الحديث في الكتاب",
       "hadithNumberInCollection": "رقم الحديث في المجموعة",
       "api": {
         "hadith": "رابط API لهذا الحديث",
@@ -331,7 +331,7 @@ npm start
     "reference": {
       "collectionId": "رقم المجموعة",
       "bookId": "رقم الكتاب",
-      "hadithNumberInBook": "رقم الحديث في الكتاب",
+      "numero": "رقم الحديث في الكتاب",
       "hadithNumberInCollection": "رقم الحديث في المجموعة",
       "api": {
         "hadith": "رابط API لهذا الحديث",

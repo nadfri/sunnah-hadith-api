@@ -1,17 +1,17 @@
-const getHadithInfoText = require("./getHadithInfoText");
+const getHadithInfoText = require('./getHadithInfoText');
 
 module.exports = (
   collectionId,
   bookId,
-  hadithNumberInBook,
+  numero,
   hadithNumberInCollection,
 ) => {
-  bookId = bookId === "-1" ? "introduction" : bookId;
+  bookId = bookId === '-1' ? 'introduction' : bookId;
 
   return {
     collectionId,
     bookId,
-    hadithNumberInBook,
+    numero,
     hadithNumberInCollection,
     api: {
       hadith: hadithNumberInCollection
@@ -20,19 +20,23 @@ module.exports = (
       book: bookId
         ? `/v1/site/collections/${collectionId}/books/${bookId}`
         : undefined,
-      hadithInBook: hadithNumberInBook && bookId
-        ? `/v1/site/collections/${collectionId}/books/${bookId}/hadith/${hadithNumberInBook}`
-        : undefined,
+      hadithInBook:
+        numero && bookId
+          ? `/v1/site/collections/${collectionId}/books/${bookId}/hadith/${numero}`
+          : undefined,
     },
     sunnahWebsite: {
       hadith: hadithNumberInCollection
         ? `https://sunnah.com/${collectionId}:${hadithNumberInCollection}`
         : undefined,
       collection: `https://sunnah.com/${collectionId}`,
-      book: bookId ? `https://sunnah.com/${collectionId}/${bookId}` : undefined,
-      hadithInBook: hadithNumberInBook && bookId
-        ? `https://sunnah.com/${collectionId}/${bookId}/${hadithNumberInBook}`
+      book: bookId
+        ? `https://sunnah.com/${collectionId}/${bookId}`
         : undefined,
+      hadithInBook:
+        numero && bookId
+          ? `https://sunnah.com/${collectionId}/${bookId}/${numero}`
+          : undefined,
     },
   };
 };
